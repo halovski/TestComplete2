@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="smetkaMovement" key="{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" path="smetkaMovement.tcKDTest" />
+		<child name="smetkiSpravka" key="{6C720620-D3E0-4F33-8532-17CAD260D0B3}" path="smetkiSpravka.tcKDTest" />
+		<child name="smetkiIzvlechenie" key="{2984C18A-1150-4756-A433-0C210C932FAC}" path="smetkiIzvlechenie.tcKDTest" />
+		<child name="loginCorporate" key="{A4F2F214-A7CE-47FF-94C4-B7C49BFC1CA1}" path="loginCorporate.tcKDTest" />
+		<child name="loginIndividual" key="{D9B6F34C-A7A9-4EDE-89AB-8DE299F9321D}" path="loginIndividual.tcKDTest" />
+		<child name="loginParameter" key="{6DA38036-3538-4F3D-89B5-ECCB892E11BA}" path="loginParameter.tcKDTest" />
+		<child name="menus" key="{AA090C3A-BCA2-4F44-B075-7BC86635D491}" path="menus.tcKDTest" />
+		<child name="loginFail" key="{63BCF65D-C300-4977-BB3B-33A185DA1E4B}" path="loginFail.tcKDTest" />
+		<child name="smetkaMovementFail" key="{FD7D798B-EB97-4DC4-888A-DDAC1988DF56}" path="smetkaMovementFail.tcKDTest" />
+		<child name="lastFiveMovements" key="{AE67198A-4C26-43A7-8659-6A249251AA81}" path="lastFiveMovements.tcKDTest" />
+		<child name="lastTenMovements" key="{4C8CB9D8-9807-4674-8ED4-B9F28255748F}" path="lastTenMovements.tcKDTest" />
+		<child name="loginSpam" key="{07A1EB31-FDC0-46D7-A9DA-4ACEE7CF2632}" path="loginSpam.tcKDTest" />
+	</children>
+</Root>

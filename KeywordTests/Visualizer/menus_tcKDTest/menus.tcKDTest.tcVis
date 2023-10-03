@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AA090C3A-BCA2-4F44-B075-7BC86635D491}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45168.4404513889" objectName="Aliases.browser.pagePostbankCorporate.buttonShowAllItems" objectLeft="1283" objectTop="370" objectRight="1312" objectBottom="399" clickPointX="1293" clickPointY="386" imageFileName="tcvi102095781151440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45168.4404861111" objectName="Aliases.browser.pagePostbankCorporate.textnodeListbox.textnodeBg08bpbi79421067023901Bg.linkUiActiveMenuitem" objectLeft="612" objectTop="558" objectRight="1260" objectBottom="586" clickPointX="1200" clickPointY="561" imageFileName="tcvi102098515151441.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

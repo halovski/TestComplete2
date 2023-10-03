@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{62A471F0-6853-4D85-AAB9-A522669F2B01}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{D8C29E47-A701-4D39-8CB0-7D7F5E8C269E}">
+			<config nodeName="EXCEL" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="&quot;C:\Users\DDoychinov\Desktop\Закриване на сметки\Разплащaтелни сделки_PS20230804135640.xlsx&quot;" workFolder="C:\Users\DDoychinov\Desktop\Закриване на сметки" userName="" password="" domain="" />
+					<param name="Profile" parameters="&quot;C:\Users\DDoychinov\Desktop\Закриване на сметки\Разплащaтелни сделки_PS20230804135640.xlsx&quot;" workFolder="C:\Users\DDoychinov\Desktop\Закриване на сметки" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="&quot;C:\Users\DDoychinov\Desktop\Закриване на сметки\Разплащaтелни сделки_PS20230804135640.xlsx&quot;" workFolder="C:\Users\DDoychinov\Desktop\Закриване на сметки" />
+					<param name="Simple" fileName="EXCEL.EXE" filePath="C:\Program Files\Microsoft Office\Root\Office16\" parameters="&quot;C:\Users\DDoychinov\Desktop\Закриване на сметки\Разплащaтелни сделки_PS20230804135640.xlsx&quot;" workFolder="C:\Users\DDoychinov\Desktop\Закриване на сметки" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
