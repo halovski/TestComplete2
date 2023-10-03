@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{1D096EC0-21BD-40AE-9BF9-E711FD75E2D9}">
+	<children>
+		<child name="papka" key="{5AB27FDB-AB0C-4A80-BFCA-7CA32807772A}" path="papka\papka.mds" />
+	</children>
+	<testItems key="{22FF0420-4B18-4846-B611-1D26B63625C0}">
+		<children>
+			<testItem key="{5AB27FDB-AB0C-4A80-BFCA-7CA32807772A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D2A8D466-599D-471C-B34D-BE6E0557AE26}" />
+	<analysis key="{45878DAE-5EEA-4CFB-8E13-AA5DC20DB484}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
