@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="smetkaMovement" key="{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" path="smetkaMovement.tcKDTest" />
+		<child name="smetkiSpravka" key="{6C720620-D3E0-4F33-8532-17CAD260D0B3}" path="smetkiSpravka.tcKDTest" />
+		<child name="smetkiIzvlechenie" key="{2984C18A-1150-4756-A433-0C210C932FAC}" path="smetkiIzvlechenie.tcKDTest" />
+		<child name="loginCorporate" key="{A4F2F214-A7CE-47FF-94C4-B7C49BFC1CA1}" path="loginCorporate.tcKDTest" />
+		<child name="loginIndividual" key="{D9B6F34C-A7A9-4EDE-89AB-8DE299F9321D}" path="loginIndividual.tcKDTest" />
+		<child name="loginParameter" key="{6DA38036-3538-4F3D-89B5-ECCB892E11BA}" path="loginParameter.tcKDTest" />
+	</children>
+</Root>

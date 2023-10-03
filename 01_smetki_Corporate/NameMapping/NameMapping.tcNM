@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A03FBC1E-1A7C-4443-98F9-7F536EED89AF}">
+				<TypeInfo Item0="{E1C6F95E-CA3B-447E-A662-83664E3532D0}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{23DEA104-7D37-4039-87ED-83B4CF886720}">
+						<TypeInfo Item0="{A6984F3D-9164-40D1-BEB9-A693F0E41C73}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pagePostbank" Key="{747D48FB-BF67-4523-B55C-16319F0C8FF9}">
+								<Image FileName="1050080893" Left="9" Top="137" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{A343EF2E-F6E5-4ACC-A67E-452D8A8C3589}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameDaisIframecontent1690367554" Key="{0C59132B-ABB2-4512-98CE-2556282EE78E}">
+										<Image FileName="1050080893" Left="118" Top="251" Right="1814" Bottom="1008" />
+										<TypeInfo Item0="{E294943D-5B60-4626-9BB7-9F92B963FEAE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;blank.html&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;DialogPanel&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="formMainformPgl" Key="{643D0144-4D46-496E-96E0-95A13D0CC4DE}">
+												<Image FileName="1050080893" Left="118" Top="251" Right="1814" Bottom="251" />
+												<TypeInfo Item0="{0C997B34-05A9-4F53-9764-D5D15EE504E0}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#mainForm_pgl" />
+													</Selector>
+													<Selector>
+														<Value Value="form[@name=&apos;mainForm_pgl&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="form[contains(., &apos;Разширено търсене&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="form" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeBg08bpbi79421067023901Bg" Key="{48869E0F-7E5C-445F-A736-9A96ECB85769}">
+												<Image FileName="1050080893" Left="215" Top="482" Right="801" Bottom="500" />
+												<TypeInfo Item0="{0C997B34-05A9-4F53-9764-D5D15EE504E0}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[contains(text(), &apos;BG08BPBI79421067023901&#32;&#32;BGN&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;left&apos;]//span" />
+													</Selector>
+													<Selector>
+														<Value Value="//h2/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkA1" Key="{6DF29D9B-E01D-48D5-AFFE-002C91B2D2CA}">
+												<Image FileName="886325733" Left="1744" Top="424" Right="1764" Bottom="454" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#a1" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;pdf&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;pdf&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[@id=&apos;ListStatementsExport_td_pdf_evo&apos;]/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxPdffilterMFromPdfMFromPdf" Key="{3DFF45CE-C3AC-41C4-B9DC-E875C9FF8F1B}">
+												<Image FileName="-1044937514" Left="146" Top="294" Right="268" Bottom="319" />
+												<TypeInfo Item0="{928B314D-7083-4D9C-92DE-8475AA29C3B4}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#PDFFilter_m_from_PDF_m_from_PDF" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell" Key="{ABEF0AF3-5FA9-43D4-B825-0B27CCF8A13D}">
+												<Image FileName="-37648419" Left="148" Top="343" Right="184" Bottom="365" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;«&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[contains(@class, &apos;hilite&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkBtnshowpdf" Key="{CBB13BC7-FDF6-476D-B5E9-0EA8FCF822BE}">
+												<Image FileName="1421885754" Left="495" Top="291" Right="596" Bottom="321" />
+												<Selectors>
+													<Selector>
+														<Value Value="#btnShowPDF" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;Покажи&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;blue&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;tabs-1&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//td/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode" Key="{28B7DCF3-26A8-425F-B5B6-6FB6DE7A108F}">
+												<Image FileName="1421885754" Left="495" Top="291" Right="583" Bottom="321" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Покажи&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[@id=&apos;btnShowPDF&apos;]/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//td/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell2" Key="{9852B905-FE11-424A-AEF1-24D90658336E}">
+												<Image FileName="-434826568" Left="184" Top="343" Right="220" Bottom="365" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;‹&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[contains(@class, &apos;hilite&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell3" Key="{F28FF31D-2658-499A-9840-8D58947136F4}">
+												<Image FileName="282599483" Left="256" Top="432" Right="292" Bottom="454" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;15&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[contains(@class, &apos;hilite&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="link" Key="{E209F85D-D261-479F-BC35-55B626278FE4}">
+												<Image FileName="1773264822" Left="1542" Top="434" Right="1660" Bottom="461" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Изтегли файл&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/a[contains(@class, &apos;link&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;ResultPDFContainer&apos;]//tr/td/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;mainContainer&apos;]/div[2]/control//tr/td/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell4" Key="{B13E6C08-9429-4B40-B299-1CBDDA72DB55}">
+												<Image FileName="-477081120" Left="1540" Top="403" Right="1788" Bottom="431" />
+												<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;Изтегли файл&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td[contains(@class, &apos;first&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="formMForm" Key="{1755A4D5-1B55-4636-8FD7-C1BC304A1665}">
+										<Image FileName="-710179183" Left="0" Top="128" Right="1899" Bottom="1979" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Христо Тест Тест (884825)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWidgetcontainer" Key="{CF6E578F-2117-42FC-801C-0E8DE5B31620}">
+										<Image FileName="-710179183" Left="325" Top="173" Right="1899" Bottom="288" />
+										<Selectors>
+											<Selector>
+												<Value Value="#WidgetContainer" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;138&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;WidgetDraggable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{62D95FFA-6835-4336-A3BA-8097C401A831}">
+										<Image FileName="-710179183" Left="326" Top="265" Right="407" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_3&apos;]/a[contains(@class, &apos;sectionbutton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageIconAccountsBgPng" Key="{86E1B590-98AF-485B-9610-C5E63E8AD567}">
+										<Image FileName="-710179183" Left="326" Top="198" Right="407" Bottom="279" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a/img[@title=&apos;Влачете и пуснете иконка в ляво или дясно&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBg08bpbi79421067023901" Key="{B97F8057-C78C-4A64-A504-A570AA29D9A8}">
+										<Image FileName="2057187545" Left="526" Top="858" Right="902" Bottom="876" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;BG08BPBI79421067023901&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;h3_7&apos;]//tr/td/div[contains(@class, &apos;divIBAN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;h3_7&apos;]//div" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[@id=&apos;middleColumn&apos;]//h3[@id=&apos;h3_7&apos;]//tr/td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAmovements" Key="{82E28E65-26F6-436B-B598-BF79B4056627}">
+										<Image FileName="-1308946685" Left="1307" Top="964" Right="1432" Bottom="994" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aMovements" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Движения&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{EE9CEB21-2F54-4A93-B14D-C532793F562C}">
+										<Image FileName="-1308946685" Left="1307" Top="964" Right="1410" Bottom="994" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Движения&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;aMovements&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[@id=&apos;middleColumn&apos;]//div[@id=&apos;tabs-CAdapterBAccounts_Active&apos;]//div[@role=&apos;tablist&apos;]/div[@id=&apos;cntOnShow&apos;]//a[@id=&apos;aMovements&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClose" Key="{FFC931D8-F0C2-4741-A49D-00870798B700}">
+										<Image FileName="-1371887872" Left="1776" Top="205" Right="1796" Bottom="225" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/a/span[contains(@class, &apos;ui-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/a[@role=&apos;button&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{1A953318-DBB4-4345-922A-D19D03D4558E}">
+										<Image FileName="2057187545" Left="908" Top="840" Right="1159" Bottom="893" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;18 544 027.45&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;h3_7&apos;]//tr/td[contains(@class, &apos;c3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApdf" Key="{29E03AC4-17C7-48EB-BC7C-C38F34745BF0}">
+										<Image FileName="1611065212" Left="1591" Top="963" Right="1725" Bottom="993" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aPDF" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Извлечения&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{5BA8FCE9-1A24-4F48-9524-4F62BD0C8659}">
+										<Image FileName="1611065212" Left="1591" Top="963" Right="1718" Bottom="993" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@id=&apos;aPDF&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[@id=&apos;middleColumn&apos;]//div[@id=&apos;tabs-CAdapterBAccounts_Active&apos;]//div[@role=&apos;tablist&apos;]/div[@id=&apos;cntOnShow&apos;]//a[@id=&apos;aPDF&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{AB5A326C-32EA-4977-B4D8-D7AF959B7145}">
+										<Image FileName="-2053209169" Left="1159" Top="840" Right="1410" Bottom="893" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;18 322 299.96&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{E383490A-1527-4FDC-B550-B3D74D4F8D50}">
+										<Image FileName="499413126" Left="242" Top="444" Right="567" Bottom="497" />
+										<TypeInfo Item0="{928B314D-7083-4D9C-92DE-8475AA29C3B4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;userName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPwd" Key="{13D39CE1-B903-474F-85B9-04BEB4240C46}">
+										<Image FileName="1176632447" Left="242" Top="509" Right="567" Bottom="562" />
+										<TypeInfo Item0="{928B314D-7083-4D9C-92DE-8475AA29C3B4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbutton" Key="{57A01072-AEDD-4226-AAD2-BB97FCBFC8C8}">
+										<Image FileName="557200184" Left="317" Top="579" Right="492" Bottom="632" />
+										<TypeInfo Item0="{48E0412C-661B-4E6F-8DC4-157EB971CA62}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;ВХОД&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{CA5E143F-9CA1-4703-A031-F6EF995ACB9E}">
+										<Image FileName="-2045466132" Left="687" Top="913" Right="937" Bottom="951" />
+										<TypeInfo Item0="{48E0412C-661B-4E6F-8DC4-157EB971CA62}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Индивидуални клиенти&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;choosectrl&apos;]/div/p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{DBD5EC20-74BF-4BA3-A54F-4901914A1700}">
+										<Image FileName="765891853" Left="961" Top="913" Right="1211" Bottom="951" />
+										<TypeInfo Item0="{48E0412C-661B-4E6F-8DC4-157EB971CA62}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Юридически лица&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{55412BA7-E24F-4BAC-AD40-1305F85A4FE7}">
+										<Image FileName="1629873847" Left="907" Top="454" Right="1162" Bottom="501" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;18 211 016.44&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;h3_7&apos;]//tr/td[contains(@class, &apos;c3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{F49092C0-2265-486F-8541-564BBF1DE5B2}">
+										<Image FileName="-1156799295" Left="1162" Top="769" Right="1417" Bottom="816" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;18 211 191.44&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{60A6C1EA-CB67-4FDF-8EA6-E1ACD1669E31}">
+								<Image FileName="-710179183" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePostbankItServiceCenterServi" Key="{62789857-C4F6-470B-8B7E-D2CE5FDCA929}">
+								<Image FileName="465043455" Left="0" Top="88" Right="1852" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://jira.postbank.bg/servicedesk/customer/portals" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContentWrapper" Key="{109A5DA5-FC0B-4FF4-9E8A-384BA7C7B753}">
+										<Image FileName="465043455" Left="0" Top="526" Right="1839" Bottom="1638" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to Postbank IT Service Center&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionWelcomeToPostbankItServic" Key="{E177D975-9A86-4947-BCF4-16452757BB45}">
+										<Image FileName="465043455" Left="0" Top="526" Right="1839" Bottom="1538" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;aui-page-panel-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;content&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkChangeManagement" Key="{BB899788-18D5-49D9-A34F-5C9AE55A4C8A}">
+										<Image FileName="465043455" Left="1170" Top="641" Right="1590" Bottom="821" />
+										<TypeInfo Item0="{60739106-7919-4E06-A3B2-B2A7902A8FAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Change Management&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//section//div[3]/a[contains(@class, &apos;_3FV3_r3snb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;content&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//section//div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{23DEA104-7D37-4039-87ED-83B4CF886720}">
+			<Child Name="pagePostbankCorporate" Owner="{747D48FB-BF67-4523-B55C-16319F0C8FF9}">
+				<Child Name="frameDaisIframecontent1690367554" Owner="{0C59132B-ABB2-4512-98CE-2556282EE78E}">
+					<Child Name="formMainformPgl" Owner="{643D0144-4D46-496E-96E0-95A13D0CC4DE}">
+						<Child Name="textnodeBg08bpbi79421067023901Bg" Owner="{48869E0F-7E5C-445F-A736-9A96ECB85769}" />
+						<Child Name="linkA1" Owner="{6DF29D9B-E01D-48D5-AFFE-002C91B2D2CA}" />
+						<Child Name="textboxPdffilterMFromPdfMFromPdf" Owner="{3DFF45CE-C3AC-41C4-B9DC-E875C9FF8F1B}" />
+						<Child Name="linkBtnshowpdf" Owner="{CBB13BC7-FDF6-476D-B5E9-0EA8FCF822BE}">
+							<Child Name="textnode" Owner="{28B7DCF3-26A8-425F-B5B6-6FB6DE7A108F}" />
+						</Child>
+						<Child Name="link" Owner="{E209F85D-D261-479F-BC35-55B626278FE4}" />
+						<Child Name="cell4" Owner="{B13E6C08-9429-4B40-B299-1CBDDA72DB55}" />
+					</Child>
+					<Child Name="cell" Owner="{ABEF0AF3-5FA9-43D4-B825-0B27CCF8A13D}" />
+					<Child Name="cell2" Owner="{9852B905-FE11-424A-AEF1-24D90658336E}" />
+					<Child Name="cell3" Owner="{F28FF31D-2658-499A-9840-8D58947136F4}" />
+				</Child>
+				<Child Name="formMForm" Owner="{1755A4D5-1B55-4636-8FD7-C1BC304A1665}">
+					<Child Name="textnodeWidgetcontainer" Owner="{CF6E578F-2117-42FC-801C-0E8DE5B31620}">
+						<Child Name="link" Owner="{62D95FFA-6835-4336-A3BA-8097C401A831}">
+							<Child Name="imageIconAccountsBgPng" Owner="{86E1B590-98AF-485B-9610-C5E63E8AD567}" />
+						</Child>
+					</Child>
+					<Child Name="panelBg08bpbi79421067023901" Owner="{B97F8057-C78C-4A64-A504-A570AA29D9A8}" />
+					<Child Name="linkAmovements" Owner="{82E28E65-26F6-436B-B598-BF79B4056627}">
+						<Child Name="textnode" Owner="{EE9CEB21-2F54-4A93-B14D-C532793F562C}" />
+					</Child>
+					<Child Name="cell" Owner="{1A953318-DBB4-4345-922A-D19D03D4558E}" />
+					<Child Name="linkApdf" Owner="{29E03AC4-17C7-48EB-BC7C-C38F34745BF0}">
+						<Child Name="textnode2" Owner="{5BA8FCE9-1A24-4F48-9524-4F62BD0C8659}" />
+					</Child>
+					<Child Name="cell2" Owner="{AB5A326C-32EA-4977-B4D8-D7AF959B7145}" />
+					<Child Name="textboxUsername" Owner="{E383490A-1527-4FDC-B550-B3D74D4F8D50}" />
+					<Child Name="passwordboxPwd" Owner="{13D39CE1-B903-474F-85B9-04BEB4240C46}" />
+					<Child Name="submitbutton" Owner="{57A01072-AEDD-4226-AAD2-BB97FCBFC8C8}" />
+					<Child Name="button" Owner="{CA5E143F-9CA1-4703-A031-F6EF995ACB9E}" />
+					<Child Name="button2" Owner="{DBD5EC20-74BF-4BA3-A54F-4901914A1700}" />
+					<Child Name="cell3" Owner="{55412BA7-E24F-4BAC-AD40-1305F85A4FE7}" />
+					<Child Name="cell4" Owner="{F49092C0-2265-486F-8541-564BBF1DE5B2}" />
+				</Child>
+				<Child Name="textnodeClose" Owner="{FFC931D8-F0C2-4741-A49D-00870798B700}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{60A6C1EA-CB67-4FDF-8EA6-E1ACD1669E31}" />
+			<Child Name="pagePostbankItServiceCenterServi" Owner="{62789857-C4F6-470B-8B7E-D2CE5FDCA929}">
+				<Child Name="sectionContentWrapper" Owner="{109A5DA5-FC0B-4FF4-9E8A-384BA7C7B753}">
+					<Child Name="sectionWelcomeToPostbankItServic" Owner="{E177D975-9A86-4947-BCF4-16452757BB45}">
+						<Child Name="linkChangeManagement" Owner="{BB899788-18D5-49D9-A34F-5C9AE55A4C8A}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
