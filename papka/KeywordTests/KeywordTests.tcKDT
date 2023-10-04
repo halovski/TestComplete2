@@ -2,5 +2,6 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="shared" key="{3FED0B8F-9006-452F-B758-1CF43CDF3AC3}" path="shared.tcKDTest" />
+		<child name="timer" key="{5D7CD7B9-57A1-4103-998A-2001C612F175}" path="timer.tcKDTest" />
 	</children>
 </Root>
