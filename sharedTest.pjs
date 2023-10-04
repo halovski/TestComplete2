@@ -2,10 +2,12 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{1D096EC0-21BD-40AE-9BF9-E711FD75E2D9}">
 	<children>
 		<child name="papka" key="{5AB27FDB-AB0C-4A80-BFCA-7CA32807772A}" path="papka\papka.mds" />
+		<child name="02_obobshteniSpravki" key="{314C012C-4F59-47FE-8336-7FC2C2426E95}" path="02_spravki\02_obobshteniSpravki.mds" />
 	</children>
 	<testItems key="{22FF0420-4B18-4846-B611-1D26B63625C0}">
 		<children>
 			<testItem key="{5AB27FDB-AB0C-4A80-BFCA-7CA32807772A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{314C012C-4F59-47FE-8336-7FC2C2426E95}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{D2A8D466-599D-471C-B34D-BE6E0557AE26}" />
