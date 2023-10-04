@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F1A2DA7F-72F7-4CE6-9001-C8EE7EE6E0EE}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{259E7196-85CF-4DA0-B1FC-7F47DF726253}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWorkerW" Key="{E7DE48B7-7489-421F-AFCE-2C8733F7B2C0}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WorkerW" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="15" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{6CA6A00D-CD9D-4B57-9473-6592126BF6D7}" ExtendedFind="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{0C2107F9-4416-49CA-97FD-D6FA10EF0B0C}">
+												<TypeInfo Item0="{068EBE40-C53C-4683-9BF4-96FD6B554325}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{6348BDDA-A526-4142-A94F-59FAC7ADE21F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9EB8A32E-3BAA-4A98-B96B-637CAEC76472}">
+								<Image FileName="-919738801" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePostbank" Key="{8F050706-7404-45A5-9BAB-2BBE2C81EE1A}">
+								<Image FileName="-919738801" Left="0" Top="136" Right="1920" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/page/default.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formMForm" Key="{AB8922F7-DDEF-464F-82E1-72BF5E7406EC}">
+										<Image FileName="-919738801" Left="0" Top="265" Right="617" Bottom="900" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;EN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@class, &apos;cl_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{355002B7-8EEC-45AA-9E14-2990B5B5C709}">
+										<Image FileName="-919738801" Left="332" Top="706" Right="476" Bottom="723" />
+										<TypeInfo Item0="{9004084A-A69A-4DAE-8C47-CDE2DB76CC95}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Активирай достъп&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;link-registration&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//control[@id=&apos;LoginPage&apos;]//div[6]/p/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]/div[6]/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{89A25A6D-47A6-4FFF-858F-247295FFAF8E}">
+										<Image FileName="-499652602" Left="995" Top="659" Right="1220" Bottom="712" />
+										<TypeInfo Item0="{17BE7DFD-B9EE-4041-8113-3052FA59DCA9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Онлайн регистрация&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDefault" Key="{B5A85B65-1943-45EE-9D02-A014DF7DFCCB}">
+								<Image FileName="-919738801" Left="0" Top="136" Right="1920" Bottom="1029" />
+								<TypeInfo Item0="{9BEE1E7A-C2FF-41C4-8744-0353221AECD9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/ePortal/page/default.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formMForm" Key="{CAD57CF1-4E83-4324-B292-F7D7700326C4}">
+										<Image FileName="111652725" Left="0" Top="224" Right="1899" Bottom="1009" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;EN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@class, &apos;cl_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{1C9A1BBC-69DA-43C8-AF23-ADA98B9BE3AB}">
+										<Image FileName="1178765513" Left="750" Top="931" Right="907" Bottom="949" />
+										<TypeInfo Item0="{9004084A-A69A-4DAE-8C47-CDE2DB76CC95}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Нова регистрация&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formMForm2" Key="{A0B6CDAE-4721-4DF6-8376-41649D0A7013}">
+										<Image FileName="629865810" Left="0" Top="-202" Right="1899" Bottom="1071" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@class, &apos;cl_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{DFF5EA55-8439-4C36-B97A-D4644A3B852C}">
+										<Image FileName="629865810" Left="793" Top="345" Right="1115" Bottom="385" />
+										<TypeInfo Item0="{09B41DF1-8773-4156-96F6-C805B54B3ACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Три имена&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#userName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;userName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEgn" Key="{32572B26-5B8C-4170-9B30-BCA40750199A}">
+										<Image FileName="-1831237335" Left="793" Top="424" Right="1115" Bottom="464" />
+										<TypeInfo Item0="{09B41DF1-8773-4156-96F6-C805B54B3ACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;ЕГН&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#egn" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;egn&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{DEFFE161-1F87-4830-8916-A8CA5B6A1897}">
+										<Image FileName="293605987" Left="793" Top="504" Right="1115" Bottom="544" />
+										<TypeInfo Item0="{09B41DF1-8773-4156-96F6-C805B54B3ACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Имейл&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailconfirmation" Key="{B85721D0-E6FE-47C4-BEC7-92C73CACDC39}">
+										<Image FileName="-441640650" Left="793" Top="583" Right="1115" Bottom="623" />
+										<TypeInfo Item0="{09B41DF1-8773-4156-96F6-C805B54B3ACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Повторно въвеждане на имейл&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#emailConfirmation" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;emailConfirmation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber" Key="{3F9FA431-E26C-42D7-95ED-13501BA896E6}">
+										<Image FileName="162336754" Left="793" Top="663" Right="1115" Bottom="703" />
+										<TypeInfo Item0="{09B41DF1-8773-4156-96F6-C805B54B3ACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Мобилен телефон&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#number" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoginContainer" Key="{4409EC2D-8E27-4A79-A9CB-297C74EC5523}">
+										<Image FileName="-2145968070" Left="543" Top="118" Right="1356" Bottom="1067" />
+										<TypeInfo Item0="{9004084A-A69A-4DAE-8C47-CDE2DB76CC95}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login-container" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{259E7196-85CF-4DA0-B1FC-7F47DF726253}">
+			<Child Name="wndWorkerW" Owner="{E7DE48B7-7489-421F-AFCE-2C8733F7B2C0}">
+				<Child Name="SHELLDLL_DefView" Owner="{6CA6A00D-CD9D-4B57-9473-6592126BF6D7}">
+					<Child Name="FolderView" Owner="{0C2107F9-4416-49CA-97FD-D6FA10EF0B0C}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{6348BDDA-A526-4142-A94F-59FAC7ADE21F}">
+			<Child Name="BrowserWindow" Owner="{9EB8A32E-3BAA-4A98-B96B-637CAEC76472}" />
+			<Child Name="pagePostbank" Owner="{8F050706-7404-45A5-9BAB-2BBE2C81EE1A}">
+				<Child Name="formMForm" Owner="{AB8922F7-DDEF-464F-82E1-72BF5E7406EC}">
+					<Child Name="link" Owner="{355002B7-8EEC-45AA-9E14-2990B5B5C709}" />
+					<Child Name="button" Owner="{89A25A6D-47A6-4FFF-858F-247295FFAF8E}" />
+				</Child>
+			</Child>
+			<Child Name="pageDefault" Owner="{B5A85B65-1943-45EE-9D02-A014DF7DFCCB}">
+				<Child Name="formMForm" Owner="{CAD57CF1-4E83-4324-B292-F7D7700326C4}">
+					<Child Name="link" Owner="{1C9A1BBC-69DA-43C8-AF23-ADA98B9BE3AB}" />
+				</Child>
+				<Child Name="formMForm2" Owner="{A0B6CDAE-4721-4DF6-8376-41649D0A7013}">
+					<Child Name="textboxUsername" Owner="{DFF5EA55-8439-4C36-B97A-D4644A3B852C}" />
+					<Child Name="textboxEgn" Owner="{32572B26-5B8C-4170-9B30-BCA40750199A}" />
+					<Child Name="textboxEmail" Owner="{DEFFE161-1F87-4830-8916-A8CA5B6A1897}" />
+					<Child Name="textboxEmailconfirmation" Owner="{B85721D0-E6FE-47C4-BEC7-92C73CACDC39}" />
+					<Child Name="textboxNumber" Owner="{3F9FA431-E26C-42D7-95ED-13501BA896E6}" />
+					<Child Name="panelLoginContainer" Owner="{4409EC2D-8E27-4A79-A9CB-297C74EC5523}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
