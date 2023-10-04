@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{AAC7276D-9386-4F3C-B8C9-2238E98EE804}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet1" />
+	<testData />
+	<data>
+		<item caption="excelIcon" moniker="{9A743F0A-308D-4069-A8D1-38E9312120F1}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\excelIcon.png" initialHash="0A2E410B" selectionLeft="10" selectionTop="972" selectionWidth="100" selectionHeight="46" initialLeft="10" initialTop="972" initialWidth="100" initialHeight="46" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="xls" moniker="{44DFEDD4-97F4-432C-ACF7-0B72BF3E42FD}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\xls.png" initialHash="00000000" selectionLeft="16" selectionTop="973" selectionWidth="118" selectionHeight="47" initialLeft="16" initialTop="973" initialWidth="118" initialHeight="47" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="X" moniker="{ACE779EA-6F08-4912-B6AD-7B8B91C6D241}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\X.png" initialHash="00000000" selectionLeft="4" selectionTop="7" selectionWidth="23" selectionHeight="22" initialLeft="4" initialTop="7" initialWidth="23" initialHeight="22" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

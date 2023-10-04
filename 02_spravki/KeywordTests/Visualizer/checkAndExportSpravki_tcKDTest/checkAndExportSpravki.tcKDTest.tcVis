@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4BC808EA-6C55-4919-9EFB-449B577F207D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45134.3475462963" objectName="NameMapping.Sys.browser.pagePostbank.link2" objectLeft="1376" objectTop="486" objectRight="1394" objectBottom="513" clickPointX="1393" clickPointY="497" imageFileName="tcvi89444671454960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45134.36" objectName="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass" objectLeft="480" objectTop="0" objectRight="1315" objectBottom="50" clickPointX="507" clickPointY="30" imageFileName="tcvi90520703103561.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45134.3596527778" objectName="Aliases.EXCEL.dlgMicrosoftExcel.btnYes" objectLeft="331" objectTop="85" objectRight="391" objectBottom="109" clickPointX="364" clickPointY="102" imageFileName="tcvi90490953457520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45134.3596990741" objectName="Aliases.EXCEL.wndXLMAIN2" objectLeft="-1" objectTop="-1" objectRight="1919" objectBottom="160" clickPointX="-1" clickPointY="-1" imageFileName="tcvi90494562457522.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45174.3334953704" objectName="Aliases.browser.link4.imageLogoPng" objectLeft="9" objectTop="174" objectRight="319" objectBottom="282" clickPointX="170" clickPointY="232" imageFileName="tcvi324006968820200.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

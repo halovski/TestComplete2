@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1400" key="{B6E591A6-6C4E-4898-951A-2CCFBD214232}" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{AAC7276D-9386-4F3C-B8C9-2238E98EE804}" path="ImageSet1.tcIRIS" />
+	</children>
+</Root>

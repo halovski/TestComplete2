@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="loginCorporate" key="{4E72D4D0-82DD-43F1-ADD9-079D1DA8838F}" path="loginCorporate.tcKDTest" />
+		<child name="loginIndividual" key="{5783290A-51E8-4BDA-8096-77DE16424965}" path="loginIndividual.tcKDTest" />
+		<child name="createSpravki" key="{C2B3F574-C16E-4FF1-8BC7-0105CCF7E1AF}" path="createSpravki.tcKDTest" />
+		<child name="checkAndExportSpravki" key="{4BC808EA-6C55-4919-9EFB-449B577F207D}" path="checkAndExportSpravki.tcKDTest" />
+	</children>
+</Root>

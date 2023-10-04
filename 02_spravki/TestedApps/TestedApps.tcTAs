@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{207911B1-4137-4B12-BC2A-AC53F7F36B77}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{AE5F9A74-232C-4441-89EA-618BBD2186B0}">
+			<config nodeName="EXCEL" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="C:\Users\halovski\Downloads\report.xls" workFolder="C:\Users\halovski\Downloads" userName="" password="" domain="" />
+					<param name="Profile" parameters="C:\Users\halovski\Downloads\report.xls" workFolder="C:\Users\halovski\Downloads" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="C:\Users\halovski\Downloads\report.xls" workFolder="C:\Users\halovski\Downloads" />
+					<param name="Simple" fileName="EXCEL.EXE" filePath="C:\Program Files\Microsoft Office\Root\Office16\" parameters="C:\Users\halovski\Downloads\report.xls" workFolder="C:\Users\halovski\Downloads" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

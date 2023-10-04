@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DC192222-EBC0-4A4B-B1D6-B85357B0E0B4}">
+				<TypeInfo Item0="{5F5FDA00-60CF-4714-9B1B-432FD43C1FF4}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{923FC9DA-5E8B-47FE-AF3E-EDD2024514C3}">
+						<TypeInfo Item0="{32763076-1F0F-499E-A913-DC70A4C218DC}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pagePostbank" Key="{4D371E42-DC86-4250-9FD1-6BCC270DEA0E}">
+								<Image FileName="715576026" Left="9" Top="137" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{A9FB38F3-13A0-47E1-9FA2-6705630FCE92}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameDaisIframecontent1688555174" Key="{D85341C1-C146-4262-82B3-5D5F4791DE5E}">
+										<Image FileName="715576026" Left="308" Top="251" Right="1625" Bottom="738" />
+										<TypeInfo Item0="{5DD45DD6-65D4-41AC-BE24-1154BCBDD24E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;blank.html&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;DialogPanel&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="formMainformPgl" Key="{ED52D4A3-1D3D-45C1-886E-2E040AB6213B}">
+												<Image FileName="715576026" Left="308" Top="251" Right="1625" Bottom="251" />
+												<TypeInfo Item0="{F26BAFE8-6F4B-4D59-99E3-1FF45E7A7373}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#mainForm_pgl" />
+													</Selector>
+													<Selector>
+														<Value Value="form[@name=&apos;mainForm_pgl&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="form[contains(., &apos;Създайте справка&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="form" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="panelResultofflinestatements" Key="{987A7673-0E9E-41F6-A52C-D0FE81A45C7D}">
+												<Image FileName="715576026" Left="308" Top="692" Right="1612" Bottom="709" />
+												<TypeInfo Item0="{F26BAFE8-6F4B-4D59-99E3-1FF45E7A7373}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;ReadyOfflineStatements&apos;]/div" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkBtnshowstatementsf" Key="{03426C9B-C24F-4FE1-A527-8154C9A498BD}">
+												<Image FileName="-1627165414" Left="309" Top="649" Right="489" Bottom="679" />
+												<Selectors>
+													<Selector>
+														<Value Value="#btnShowStatementsF" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;Създайте справка&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode" Key="{EB4A8A16-B346-49FC-9FAE-E40DAB445C9C}">
+												<Image FileName="-1627165414" Left="309" Top="649" Right="477" Bottom="679" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Създайте справка&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[@id=&apos;btnShowStatementsF&apos;]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkClosebutton" Key="{0DA79D9C-109B-4112-A5BD-B7B262A15851}">
+												<Image FileName="-481555850" Left="489" Top="649" Right="591" Bottom="679" />
+												<Selectors>
+													<Selector>
+														<Value Value="#closeButton" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;Затвори&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode2" Key="{26167693-C1DA-4B60-A4DF-F8446E0BBF9A}">
+												<Image FileName="-481555850" Left="489" Top="649" Right="579" Bottom="679" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Затвори&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[@id=&apos;closeButton&apos;]/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxMovementforallaccountsMFr" Key="{11B887CF-CD88-4222-80BD-CA999762029F}">
+												<Image FileName="-1467338742" Left="335" Top="497" Right="457" Bottom="522" />
+												<TypeInfo Item0="{83AFC309-BE44-4778-BF13-83BCC0FCD7C1}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#MovementForAllAccounts_m_from_StatementsF_m_from_StatementsF" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/input[@value=&apos;05.07.2023&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/input[contains(@class, &apos;datePicker&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//table[@id=&apos;statementsFilterF&apos;]//tr/td/table[2]//tr/td/input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/table[2]//tr/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell" Key="{DC54B240-FF61-412A-B3F8-5A0385BA3C49}">
+												<Image FileName="1874157142" Left="373" Top="546" Right="409" Bottom="568" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;‹&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[contains(@class, &apos;hilite&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell2" Key="{D398A408-0BDE-45E9-9DDB-5B56FB9DD745}">
+												<Image FileName="370292587" Left="553" Top="524" Right="589" Bottom="546" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;×&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td[contains(@class, &apos;button&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="radiobuttonGenTypeInquiryPo" Key="{1AA30243-F56A-4225-8945-A80585EAE98B}">
+												<Image FileName="-988453244" Left="319" Top="402" Right="335" Bottom="418" />
+												<TypeInfo Item0="{BE933FCA-2A56-4855-BCB0-24D7D0C70584}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;gen_type_Inquiry_PO&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#gen_type_Inquiry_PO" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[3]/td/input[@name=&apos;gen_type_Inquiry&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[3]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="radiobuttonGenTypeInquiryBal" Key="{062AFD95-D8BB-46A4-9FF9-DD595112680B}">
+												<Image FileName="-430464706" Left="319" Top="331" Right="334" Bottom="346" />
+												<TypeInfo Item0="{BE933FCA-2A56-4855-BCB0-24D7D0C70584}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;gen_type_Inquiry_Bal&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#gen_type_Inquiry_Bal" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/input[@name=&apos;gen_type_Inquiry&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/table//tr/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell3" Key="{E589A01E-22E9-4885-A45C-899C6168DCC2}">
+												<Image FileName="-1811096050" Left="702" Top="275" Right="1028" Bottom="546" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[contains(., &apos;Изберете сметки&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell4" Key="{3CB7C285-AF64-42A9-908C-B0758977D279}">
+												<Image FileName="-639996933" Left="309" Top="275" Right="694" Bottom="546" />
+												<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[contains(., &apos;Изберете тип на спавката&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="radiobuttonGenTypeInquiryMvm" Key="{A17D0EDF-015F-435A-B01F-A166600415CB}">
+												<Image FileName="750853673" Left="319" Top="354" Right="334" Bottom="369" />
+												<TypeInfo Item0="{BE933FCA-2A56-4855-BCB0-24D7D0C70584}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;gen_type_Inquiry_Mvm&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#gen_type_Inquiry_Mvm" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[2]/td/input[@name=&apos;gen_type_Inquiry&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr/td/table//tr[2]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="formMForm" Key="{523E59B2-83B2-4212-9D87-900B86E9C081}">
+										<Image FileName="1189394061" Left="0" Top="128" Right="1899" Bottom="1506" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Христо Тест Тест (884825)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWidgetcontainer" Key="{0B4A17F0-D4E5-4794-848E-35302617655B}">
+										<Image FileName="1189394061" Left="325" Top="173" Right="1899" Bottom="288" />
+										<Selectors>
+											<Selector>
+												<Value Value="#WidgetContainer" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;WidgetDraggable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{FCC0DA33-D217-4214-805D-088B85466A52}">
+										<Image FileName="1189394061" Left="326" Top="265" Right="407" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_3&apos;]/a[contains(@class, &apos;sectionbutton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageIconAccountsBgPng" Key="{1869B012-A67B-4DC7-B7E2-E3662088810B}">
+										<Image FileName="1189394061" Left="326" Top="198" Right="407" Bottom="279" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a/img[@title=&apos;Влачете и пуснете иконка в ляво или дясно&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{109BF69E-3B52-41D1-9BBC-764EE0C19B4A}">
+										<Image FileName="197699795" Left="129" Top="365" Right="1744" Bottom="402" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Активни&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td//div[@id=&apos;MainPanel&apos;]//ul[contains(@class, &apos;ui-tabs-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPanel&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//td//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBaccountsfilterUftitleSu" Key="{B0C38B9C-A3CB-45BE-B22A-834C8217D902}">
+										<Image FileName="197699795" Left="483" Top="378" Right="636" Bottom="394" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Обобщени справки&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPanel&apos;]//ul/li[3]/a/span[contains(@class, &apos;spanTitle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabs&apos;]//li[3]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCreatenewallaccountsstatemen" Key="{0C2176EA-1A0C-4525-B5E6-353A639C8D00}">
+										<Image FileName="487822049" Left="1549" Top="413" Right="1730" Bottom="443" />
+										<Selectors>
+											<Selector>
+												<Value Value="#createNewAllAccountsStatementRequest" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@name=&apos;createNewAllAccountsStatementRequest&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Създайте справка&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Създайте справка&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a[contains(@class, &apos;blue&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;BAccountsPanelContainer_Summary&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabs-CAdapterStatementsSeeAllForAllAccounts_Summary&apos;]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{F4E372D3-DA6F-4F17-82DA-4B46E0E1769A}">
+										<Image FileName="487822049" Left="1549" Top="413" Right="1723" Bottom="443" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Създайте справка&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;createNewAllAccountsStatementRequest&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[@id=&apos;middleColumn&apos;]//div[@id=&apos;tabs-CAdapterStatementsSeeAllForAllAccounts_Summary&apos;]//a[@id=&apos;createNewAllAccountsStatementRequest&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{EC00CFB6-4E95-4AFB-BEE8-B32FBB3BE238}">
+										<Image FileName="-1848487744" Left="1371" Top="525" Right="1391" Bottom="555" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td//tr/td/a[contains(@class, &apos;xls&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;MainContent&apos;]//tr/td//tr/td[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{DB2F6C96-3DB0-42E7-815B-DF6866348F3B}">
+										<Image FileName="-1130327593" Left="281" Top="378" Right="450" Bottom="394" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Откриване на сметки&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;li-tabs-objAdapterThumbPrint&apos;]/a/span[contains(@class, &apos;spanTitle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;li-tabs-objAdapterThumbPrint&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;li-tabs-objAdapterThumbPrint&apos;]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClose" Key="{9C13822C-723C-4D5A-9D2A-322EE7DD5561}">
+										<Image FileName="618360207" Left="1587" Top="205" Right="1607" Bottom="225" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/a/span[contains(@class, &apos;ui-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/a[@role=&apos;button&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTabsObjadapterthumbprintLink" Key="{4A697EAE-4537-4CEE-91FF-232DD61D6CCC}">
+										<Image FileName="-1230070814" Left="268" Top="371" Right="465" Bottom="401" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Откриване на сметки&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;li-tabs-objAdapterThumbPrint&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{AE83C80B-DD72-4317-AE5D-216C1A82941B}">
+										<Image FileName="-1792297851" Left="237" Top="458" Right="530" Bottom="505" />
+										<TypeInfo Item0="{83AFC309-BE44-4778-BF13-83BCC0FCD7C1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;userName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPwd" Key="{1886E4B1-D22D-4393-B3F0-1F3D5012861C}">
+										<Image FileName="657218547" Left="237" Top="516" Right="530" Bottom="563" />
+										<TypeInfo Item0="{83AFC309-BE44-4778-BF13-83BCC0FCD7C1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input[contains(@class, &apos;edit1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-container-ebank&apos;]//p[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbutton" Key="{417443CA-5C0C-4741-A68F-19B109614B32}">
+										<Image FileName="1063500566" Left="304" Top="579" Right="462" Bottom="626" />
+										<TypeInfo Item0="{C5057354-4D58-48DE-84BD-3FE2013FF847}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;ВХОД&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{A7FC9109-8F28-44B6-B726-84E82927548F}">
+										<Image FileName="-1777078834" Left="960" Top="951" Right="1185" Bottom="985" />
+										<TypeInfo Item0="{C5057354-4D58-48DE-84BD-3FE2013FF847}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Юридически лица&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{3485A11C-AD86-4304-9F27-E12EEA5F24F2}">
+										<Image FileName="555432954" Left="713" Top="951" Right="938" Bottom="985" />
+										<TypeInfo Item0="{C5057354-4D58-48DE-84BD-3FE2013FF847}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Индивидуални клиенти&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;choosectrl&apos;]/div/p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeListbox" Key="{A289FA01-3C2C-43B8-86E0-30A7E2961279}">
+										<Image FileName="408223532" Left="609" Top="408" Right="1283" Bottom="790" />
+										<TypeInfo Item0="{07C85698-A1E8-47E6-8868-C12373B93702}" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul[contains(., &apos;BG87BPBI79421467023901&#32;&#32;EUR, BG87BPBI79421467023901 (29&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMenuitem" Key="{F694145C-D438-4D80-8E2D-19B545D6B281}">
+										<Image FileName="408223532" Left="9" Top="145" Right="9" Bottom="145" />
+										<TypeInfo Item0="{07C85698-A1E8-47E6-8868-C12373B93702}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;BG10BPBI79454486503802&#32;&#32;EUR, BG10BPBI79454486503802 (3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBg08bpbi79421067023901Bg" Key="{C9287BC5-40B1-4286-B732-E09C04055485}">
+										<Image FileName="2136307403" Left="613" Top="568" Right="1259" Bottom="594" />
+										<TypeInfo Item0="{07C85698-A1E8-47E6-8868-C12373B93702}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;BG08BPBI79421067023901&#32;&#32;BGN, BG08BPBI79421067023901 (17&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUiActiveMenuitem" Key="{682475EC-4D29-4F07-AC5D-6BA1E94802D2}">
+										<Image FileName="2136307403" Left="9" Top="145" Right="9" Bottom="145" />
+										<TypeInfo Item0="{F3186AB7-C557-432F-A788-105ED1E1994D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-active-menuitem" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;BG08BPBI79421067023901&#32;&#32;BGN, BG08BPBI79421067023901 (17&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a[contains(@class, &apos;ui-corner-all&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link3" Key="{933256E6-DEDA-42BE-8DEF-8F6C814EAED4}">
+										<Image FileName="-1520222590" Left="725" Top="273" Right="806" Bottom="290" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_6&apos;]/a[contains(@class, &apos;sectionbutton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_6&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_6&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageIconTransfersBgPng" Key="{0112AA98-4499-49D6-A6C0-B64D50C3E69A}">
+										<Image FileName="-1520222590" Left="725" Top="206" Right="806" Bottom="287" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_6&apos;]/a/img[@title=&apos;Влачете и пуснете иконка в ляво или дясно&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_6&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_6&apos;]/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link4" Key="{50E4F0C3-9285-4B6B-98E2-ACAF699DDF57}">
+										<Image FileName="-973856917" Left="9" Top="267" Right="319" Bottom="284" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;logo&apos;]/a[contains(@class, &apos;sectionbutton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;logo&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageLogoPng" Key="{CFA19011-3818-4ECE-AA72-74A752154862}">
+										<Image FileName="-973856917" Left="9" Top="174" Right="319" Bottom="282" />
+										<TypeInfo Item0="{65BDFE99-93A5-42EE-933D-C3E1E4E21E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Начало&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;logo&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;logo&apos;]/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{B3571C21-C8EA-4A51-B546-B6035F2D7A15}">
+								<Image FileName="1189394061" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="EXCEL" Key="{8FC71979-6C16-463F-A507-09FEE75AF039}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgMicrosoftExcel" Key="{A9575438-D576-4047-B537-340C5390632C}">
+								<Image FileName="108325985" Left="0" Top="0" Right="1107" Bottom="153" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Microsoft Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{F7AE4A70-19B6-43B2-A4C0-55E50C440F76}">
+										<Image FileName="108325985" Left="424" Top="106" Right="499" Bottom="136" />
+										<TypeInfo Item0="{532AA5DF-002B-4E3F-8EEF-937C02689D42}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndXLMAIN" Key="{6DFCF653-E827-45A8-9D62-1411FBCAA98F}">
+								<Image FileName="595232038" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="report (2).xls - Excel" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndXLMAIN2" Key="{B2696874-82C7-4657-92E5-66A62125F53E}">
+								<Image FileName="1155114298" Left="0" Top="0" Right="1440" Bottom="748" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="report.xls - Excel" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndXLMAIN3" Key="{F8478255-540B-4113-9940-19D175622714}">
+								<Image FileName="-287744490" Left="0" Top="0" Right="738" Bottom="382" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="report (5).xls - Excel" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndXLMAIN4" Key="{5997F920-C3A7-4803-BC0E-23289397181D}">
+								<Image FileName="-1125233472" Left="-9" Top="-9" Right="1927" Bottom="1047" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="report (9).xls - Excel" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{28433C62-AF6E-419B-9AAF-183546D92A15}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{FC09B3A7-BF35-427D-9B48-AF03804C4485}">
+								<Image FileName="-1145977366" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{B2CBBDCA-D943-471C-BAAA-748FDC09BF7F}">
+										<Image FileName="-1145977366" Left="144" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{D0E502EA-70F0-4475-9AAF-5B75C88A3850}">
+												<Image FileName="-1145977366" Left="144" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{248A84DB-5615-4015-95B0-D50A654B8D95}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{761322FA-E175-4EA2-8CFB-F38CD9DD82EB}">
+								<Image FileName="462734636" Left="0" Top="0" Right="1920" Bottom="50" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{2B02D4E0-66FA-4FE4-A2E1-C6EAD0C9C699}">
+										<Image FileName="462734636" Left="478" Top="0" Right="1315" Bottom="50" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{D5B083E2-4DDA-48DB-A348-3B4FA7259ED1}">
+												<Image FileName="462734636" Left="480" Top="0" Right="1315" Bottom="50" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{258341CB-05A7-461E-BA03-E9AF1083D03B}">
+														<Image FileName="462734636" Left="480" Top="0" Right="1315" Bottom="50" />
+														<TypeInfo Item0="{248A84DB-5615-4015-95B0-D50A654B8D95}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{923FC9DA-5E8B-47FE-AF3E-EDD2024514C3}">
+			<Child Name="radiobuttonGenTypeInquiryBal" Owner="{062AFD95-D8BB-46A4-9FF9-DD595112680B}" />
+			<Child Name="cell3" Owner="{E589A01E-22E9-4885-A45C-899C6168DCC2}" />
+			<Child Name="cell4" Owner="{3CB7C285-AF64-42A9-908C-B0758977D279}" />
+			<Child Name="radiobuttonGenTypeInquiryMvm" Owner="{A17D0EDF-015F-435A-B01F-A166600415CB}" />
+			<Child Name="textnodeListbox" Owner="{A289FA01-3C2C-43B8-86E0-30A7E2961279}">
+				<Child Name="textnodeMenuitem" Owner="{F694145C-D438-4D80-8E2D-19B545D6B281}" />
+				<Child Name="textnodeBg08bpbi79421067023901Bg" Owner="{C9287BC5-40B1-4286-B732-E09C04055485}">
+					<Child Name="linkUiActiveMenuitem" Owner="{682475EC-4D29-4F07-AC5D-6BA1E94802D2}" />
+				</Child>
+			</Child>
+			<Child Name="link3" Owner="{933256E6-DEDA-42BE-8DEF-8F6C814EAED4}">
+				<Child Name="imageIconTransfersBgPng" Owner="{0112AA98-4499-49D6-A6C0-B64D50C3E69A}" />
+			</Child>
+			<Child Name="link4" Owner="{50E4F0C3-9285-4B6B-98E2-ACAF699DDF57}">
+				<Child Name="imageLogoPng" Owner="{CFA19011-3818-4ECE-AA72-74A752154862}" />
+			</Child>
+		</Child>
+		<Child Name="EXCEL" Owner="{8FC71979-6C16-463F-A507-09FEE75AF039}">
+			<Child Name="dlgMicrosoftExcel" Owner="{A9575438-D576-4047-B537-340C5390632C}">
+				<Child Name="btnYes" Owner="{F7AE4A70-19B6-43B2-A4C0-55E50C440F76}" />
+			</Child>
+			<Child Name="wndXLMAIN" Owner="{6DFCF653-E827-45A8-9D62-1411FBCAA98F}" />
+			<Child Name="wndXLMAIN2" Owner="{B2696874-82C7-4657-92E5-66A62125F53E}" />
+			<Child Name="wndXLMAIN3" Owner="{F8478255-540B-4113-9940-19D175622714}" />
+			<Child Name="wndXLMAIN4" Owner="{5997F920-C3A7-4803-BC0E-23289397181D}" />
+		</Child>
+		<Child Name="explorer" Owner="{28433C62-AF6E-419B-9AAF-183546D92A15}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{FC09B3A7-BF35-427D-9B48-AF03804C4485}">
+				<Child Name="WorkerW" Owner="{B2CBBDCA-D943-471C-BAAA-748FDC09BF7F}">
+					<Child Name="MSTaskListWClass" Owner="{D0E502EA-70F0-4475-9AAF-5B75C88A3850}" />
+				</Child>
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{761322FA-E175-4EA2-8CFB-F38CD9DD82EB}">
+				<Child Name="ReBarWindow32" Owner="{2B02D4E0-66FA-4FE4-A2E1-C6EAD0C9C699}">
+					<Child Name="MSTaskSwWClass" Owner="{D5B083E2-4DDA-48DB-A348-3B4FA7259ED1}">
+						<Child Name="MSTaskListWClass" Owner="{258341CB-05A7-461E-BA03-E9AF1083D03B}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
