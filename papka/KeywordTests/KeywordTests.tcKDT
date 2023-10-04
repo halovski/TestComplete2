@@ -3,5 +3,6 @@
 	<children>
 		<child name="shared" key="{3FED0B8F-9006-452F-B758-1CF43CDF3AC3}" path="shared.tcKDTest" />
 		<child name="timer" key="{5D7CD7B9-57A1-4103-998A-2001C612F175}" path="timer.tcKDTest" />
+		<child name="tri" key="{BC84C1E8-0384-4539-A7CE-61D7A9014E10}" path="tri.tcKDTest" />
 	</children>
 </Root>
