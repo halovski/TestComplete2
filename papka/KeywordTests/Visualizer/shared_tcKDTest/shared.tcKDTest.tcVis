@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{3FED0B8F-9006-452F-B758-1CF43CDF3AC3}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45196.4591203704" objectName="Aliases.browser.pagePostbank.formMForm.textnodeWidgetcontainer.link.imageIconTransfersBgPng" objectLeft="725" objectTop="206" objectRight="806" objectBottom="287" clickPointX="791" clickPointY="256" imageFileName="tcvi188611468218801.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45196.4592013889" objectName="Aliases.browser.pagePostbank.formMForm.textnode.textnodeSeparatedpackages" objectLeft="1177" objectTop="386" objectRight="1410" objectBottom="402" clickPointX="1225" clickPointY="400" imageFileName="tcvi188618359218802.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45196.4592361111" objectName="Aliases.browser.pagePostbank.formMForm.textnodeWidgetcontainer.link2.imageIconUtilityBgPng" objectLeft="825" objectTop="206" objectRight="906" objectBottom="287" clickPointX="890" clickPointY="263" imageFileName="tcvi188620968218804.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{3FED0B8F-9006-452F-B758-1CF43CDF3AC3}" />
 </Root>
