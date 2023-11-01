@@ -4,70 +4,50 @@
 		<child name="Script" key="{146D4697-5A4A-43B8-8726-751024877EED}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{5F234459-97F9-42D9-A72C-D22D274B1C1B}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{232D2D8B-2A8B-472C-B68E-7E842FC04969}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
-		<child name="TestedApps" key="{62A471F0-6853-4D85-AAB9-A522669F2B01}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="UnitTesting1" key="{0281350B-C178-484B-B453-645937FF4FC4}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="UnitTesting1\UnitTesting1.tcUT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F2913D41-3442-4C27-BA63-BACCE6378745}" version="14">
 		<children>
-			<testItem name="Group2" key="{BE362C95-62AF-4231-8692-38C1A60F32AA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="loginCorporate" key="{69E7BE3F-7D39-4936-BEB1-1FD66E6259CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A4F2F214-A7CE-47FF-94C4-B7C49BFC1CA1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="loginIndividual" key="{E94BA71D-90FD-4D15-BC66-F1234F06EA7F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D9B6F34C-A7A9-4EDE-89AB-8DE299F9321D}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkiIzvlechenie_1" key="{615C400A-A81F-4C0D-BA23-E838D1D55DE1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2984C18A-1150-4756-A433-0C210C932FAC}" count="1" timeout="0" stopOnError="4" stopOnException="0" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkaMovement_1" key="{CC6BE8F8-4B6C-415D-B9FB-DDF33DC3EA2E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkiSpravka_1" key="{775525ED-AE56-483E-BAED-37A17885D84E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C720620-D3E0-4F33-8532-17CAD260D0B3}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
+				<environments activeCloud="SWT" />
+				<children />
 			</testItem>
-			<testItem name="Group3" key="{65AC7FB5-F5F3-4F7C-9915-83D62E7AF6D8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smetkaMovement" key="{AF6568CB-FDF3-446A-A55F-A71ED2C8FEF0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="loginCorporate" key="{69E7BE3F-7D39-4936-BEB1-1FD66E6259CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A4F2F214-A7CE-47FF-94C4-B7C49BFC1CA1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkiIzvlechenie" key="{89ABF0D9-2A50-4ABC-B5CB-4A2ED7D4A8FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2984C18A-1150-4756-A433-0C210C932FAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkaMovement" key="{AF6568CB-FDF3-446A-A55F-A71ED2C8FEF0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="smetkiSpravka" key="{3BAC9FF2-130F-4FF3-861A-797B32671B61}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C720620-D3E0-4F33-8532-17CAD260D0B3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
+				<environments activeCloud="SWT" />
+				<children />
 			</testItem>
-			<testItem name="Group1" key="{77306B1C-05D8-402F-A9F5-3C01802DBF44}" group="True" parallel="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smetkiSpravka" key="{3BAC9FF2-130F-4FF3-861A-797B32671B61}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C720620-D3E0-4F33-8532-17CAD260D0B3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="loginSpam" key="{78CBF5A1-B221-421E-9D2C-2095937BCF08}" group="False" parallel="False" enabled="True" testMoniker="KDT\{07A1EB31-FDC0-46D7-A9DA-4ACEE7CF2632}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="smetkiIzvlechenie" key="{89ABF0D9-2A50-4ABC-B5CB-4A2ED7D4A8FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2984C18A-1150-4756-A433-0C210C932FAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="loginIndividual" key="{E94BA71D-90FD-4D15-BC66-F1234F06EA7F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D9B6F34C-A7A9-4EDE-89AB-8DE299F9321D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="smetkaMovement_1" key="{CC6BE8F8-4B6C-415D-B9FB-DDF33DC3EA2E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C34BBF4-3D27-48D8-98E7-A178B88E3450}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="smetkiSpravka_1" key="{775525ED-AE56-483E-BAED-37A17885D84E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C720620-D3E0-4F33-8532-17CAD260D0B3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="smetkiIzvlechenie_1" key="{615C400A-A81F-4C0D-BA23-E838D1D55DE1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2984C18A-1150-4756-A433-0C210C932FAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
@@ -81,7 +61,7 @@
 		</data>
 	</variables>
 	<settings key="{F4285F58-C8F8-4A7F-B384-0900F3FF9BC7}">
-		<settingsVersion value="15.48" />
+		<settingsVersion value="15.51" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -191,7 +171,7 @@
 				<row val0="Flat" />
 			</data>
 		</setting>
-		<setting name="General_ProjectLogLocation" type="5" value="..\..\01_smetki_Corporate\Log" />
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
 		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
 		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>
